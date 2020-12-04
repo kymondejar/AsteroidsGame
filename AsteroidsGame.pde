@@ -40,6 +40,7 @@ public void draw()
     space[i].show();
     bob.show();
   }
+  bob.show();
   bob.move();
 }
 
