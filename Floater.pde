@@ -4,10 +4,10 @@ class Floater
   protected int[] xCorners;   
   protected int[] yCorners;   
   protected int myColor;   
-  protected double myCenterX, myCenterY; 
+  protected float myCenterX, myCenterY; 
   protected double myXspeed, myYspeed; 
   protected double myPointDirection;     
-
+protected double rotSpeed;
      
   public void accelerate (double dAmount)   
   {          
